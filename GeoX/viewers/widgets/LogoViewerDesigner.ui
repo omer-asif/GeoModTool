@@ -136,7 +136,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Visualization and Data Analysis</string>
+      <string>Geometric Modeling</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
@@ -160,7 +160,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Winter Semester 2013/2014</string>
+      <string>Summer Semester 2014</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignBottom|Qt::AlignHCenter</set>

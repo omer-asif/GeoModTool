@@ -29,9 +29,11 @@
 #include "ExampleExperimentMarchingCubes.h"
 #include "ExampleExperimentFields.h"
 #include "ExampleExperimentScatterPlot.h"
-
-#include "AssignmentTwo.h"
 #include "PolynomialInterpolation.h"
+#include "AssignmentTwo.h"
+
+
+
 // ...
 // include your experiments here
 
@@ -64,9 +66,9 @@ void init()
     ExampleExperimentMarchingCubes::init(Experiment::getClass());
     ExampleExperimentFields::init(Experiment::getClass());
     ExampleExperimentScatterPlot::init(Experiment::getClass());
-
-	AssignmentTwo::init(Experiment::getClass());
 	PolynomialInterpolation::init(Experiment::getClass());
+	AssignmentTwo::init(Experiment::getClass());
+
     // ...
     // register your experiments here
 
@@ -96,9 +98,8 @@ void shutdown()
     ExampleExperimentMarchingCubes::shutdown();
     ExampleExperimentFields::shutdown();
     ExampleExperimentScatterPlot::shutdown();
-
-	AssignmentTwo::shutdown();
 	PolynomialInterpolation::shutdown();
+	AssignmentTwo::shutdown();
     // ...
     // unregister your experiments here
 

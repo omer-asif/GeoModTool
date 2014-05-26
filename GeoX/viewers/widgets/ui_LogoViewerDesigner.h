@@ -109,8 +109,8 @@ public:
     {
         LogoViewer->setWindowTitle(QApplication::translate("LogoViewer", "Form", 0, QApplication::UnicodeUTF8));
         label->setText(QString());
-        label_3->setText(QApplication::translate("LogoViewer", "Visualization and Data Analysis", 0, QApplication::UnicodeUTF8));
-        label_2->setText(QApplication::translate("LogoViewer", "Winter Semester 2013/2014", 0, QApplication::UnicodeUTF8));
+        label_3->setText(QApplication::translate("LogoViewer", "Geometric Modeling", 0, QApplication::UnicodeUTF8));
+        label_2->setText(QApplication::translate("LogoViewer", "Summer Semester 2014", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

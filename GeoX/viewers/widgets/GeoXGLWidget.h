@@ -3,7 +3,13 @@
 #define GeoXGLWidgetH
 //---------------------------------------------------------------------------
 #include <QtOpenGL/QGLWidget>
-#include <GL/glu.h>
+
+#if defined(Q_WS_MAC)
+# include <OpenGL/glu.h>
+#else
+# include <GL/glu.h>
+#endif
+
 #include "VisTypes.h"
 #include "WalkthroughCameraController.h"
 #include "Camera.h"
@@ -23,43 +29,43 @@ private:
     std::vector<Line> lines;
     std::vector<Triangle> triangles;
 
-	///Structure to hold texture parameters
-	struct TTextureParameters
-	{
-		TTextureParameters()
-			:GLTexName(0)
-		{
-			Clear();
-		}
+  ///Structure to hold texture parameters
+  struct TTextureParameters
+  {
+    TTextureParameters()
+      :GLTexName(0)
+    {
+      Clear();
+    }
 
-		void Clear()
-		{
-			Dims.setZero();
-			BBoxMin.setZero();
-			BBoxMax.setZero();
-			ActualTexture.clear();
-		}
+    void Clear()
+    {
+      Dims.setZero();
+      BBoxMin.setZero();
+      BBoxMax.setZero();
+      ActualTexture.clear();
+    }
 
-		///OpenGL Name
-		GLuint GLTexName;
+    ///OpenGL Name
+    GLuint GLTexName;
 
-		///Dimensions, number of pixels in each direction.
-		///Seems as if this needs to be a power-of-two. Weird, though, should support any sizes.
-		Vector2ui Dims;
+    ///Dimensions, number of pixels in each direction.
+    ///Seems as if this needs to be a power-of-two. Weird, though, should support any sizes.
+    Vector2ui Dims;
 
-		///Location in space where the texture is anchored.
-		Vector2f BBoxMin;
-		Vector2f BBoxMax;
+    ///Location in space where the texture is anchored.
+    Vector2f BBoxMin;
+    Vector2f BBoxMax;
 
-		///Texture Min/Max-Location. Half a pixel over the boundary.
-		Vector2f TexMin;
-		Vector2f TexMax;
+    ///Texture Min/Max-Location. Half a pixel over the boundary.
+    Vector2f TexMin;
+    Vector2f TexMax;
 
-		///Data: RGB
-	    std::vector< unsigned char > ActualTexture;
-	};
+    ///Data: RGB
+      std::vector< unsigned char > ActualTexture;
+  };
 
-	TTextureParameters TexParams;
+  TTextureParameters TexParams;
 
     void findClosestPoint(int x, int y);
 

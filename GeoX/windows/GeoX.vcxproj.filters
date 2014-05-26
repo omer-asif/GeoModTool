@@ -350,12 +350,6 @@
     <ClCompile Include="..\experiments\ExampleExperimentFields.cpp">
       <Filter>experiments</Filter>
     </ClCompile>
-    <ClCompile Include="..\experiments\PolynomialInterpolation.cpp">
-      <Filter>experiments</Filter>
-    </ClCompile>
-    <ClCompile Include="..\experiments\AssignmentTwo.cpp">
-      <Filter>experiments</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -639,12 +633,6 @@
       <Filter>system\misc</Filter>
     </ClInclude>
     <ClInclude Include="..\experiments\ExampleExperimentFields.h">
-      <Filter>experiments</Filter>
-    </ClInclude>
-    <ClInclude Include="..\experiments\PolynomialInterpolation.h">
-      <Filter>experiments</Filter>
-    </ClInclude>
-    <ClInclude Include="..\experiments\AssignmentTwo.h">
       <Filter>experiments</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
-PROJECT(GeoX CXX)
+PROJECT(GeoX C CXX)
 
 FIND_PACKAGE(Qt4 REQUIRED QtCore QtGui QtOpenGL)
 INCLUDE(${QT_USE_FILE})
@@ -167,9 +167,9 @@ ELSE()
   SET(GeoX_SOURCES ${GeoX_SOURCES} unix/main.cpp)
 ENDIF()
 
-ADD_EXECUTABLE(GeoX ${GeoX_SOURCES} ${Experiment_SOURCES} ${MOCSrcs} ${UISrcs} ${GeoX_resources})
+ADD_EXECUTABLE(GeoX_app ${GeoX_SOURCES} ${Experiment_SOURCES} ${MOCSrcs} ${UISrcs} ${GeoX_resources})
 
-TARGET_LINK_LIBRARIES(GeoX ${ALLLIBS})
+TARGET_LINK_LIBRARIES(GeoX_app ${ALLLIBS})
 
 IF(WIN32) # Check if we are on Windows
   IF(MSVC) # Check if we are using the Visual Studio compiler

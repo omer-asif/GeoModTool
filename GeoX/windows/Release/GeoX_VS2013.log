@@ -1,0 +1,119 @@
+﻿Build started 5/26/2014 10:53:24 PM.
+     1>Project "C:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\GeoX_VS2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\ /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\.. /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\application /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\experiments /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\geoX /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\math /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\system\basics /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\system\gui /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\system\misc /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\system\properties /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\system\streaming /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\viewers\cameraControl /IC:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\\..\viewers\widgets /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHa /MD /GS- /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\GeoX_VS2013.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\experiments\PolynomialInterpolation.cpp ..\InitGeoX.cpp
+         PolynomialInterpolation.cpp
+         InitGeoX.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\Release\GeoX_VS2013.exe" /INCREMENTAL:NO /NOLOGO qtCore4.lib qtGui4.lib qtOpenGL4.lib winmm.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\Release\GeoX_VS2013.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\Release\GeoX_VS2013.lib" /MACHINE:X86 /SAFESEH Release\AssignmentTwo.obj
+         Release\ExampleExperimentFields.obj
+         Release\ExampleExperimentScatterPlot.obj
+         Release\PolynomialInterpolation.obj
+         Release\AMLoader.obj
+         Release\stdafx.obj
+         Release\winmain.obj
+         Release\GeoXMainWindow.obj
+         Release\BoundingBox.obj
+         Release\DynamicLinearAlgebra.obj
+         Release\DynamicLinearAlgebraTools.obj
+         Release\Frustum.obj
+         Release\HalfSpace.obj
+         Release\IterativeSolvers.obj
+         Release\LinearAlgebra.obj
+         Release\MarchingCubes3D.obj
+         Release\PolarCoordinates.obj
+         Release\SparseLinearAlgebra.obj
+         Release\ViewFrustum.obj
+         Release\ClassCreator.obj
+         Release\ClassEditor.obj
+         Release\ClassMethods.obj
+         Release\ClassProperty.obj
+         Release\CopyObjectProperties.obj
+         Release\ExceptionHandling.obj
+         Release\HashTables.obj
+         Release\MetaClass.obj
+         Release\Object.obj
+         Release\Persistent.obj
+         Release\ClassSelectionDialog.obj
+         Release\FileDialogs.obj
+         Release\GeneralKey.obj
+         Release\GeoXOutput.obj
+         Release\MemberBrowser.obj
+         Release\MethodBrowser.obj
+         Release\Modifiers.obj
+         Release\ObjectBrowserWidget.obj
+         Release\ObjectCreationDialog.obj
+         Release\ObjectViewsTable.obj
+         Release\PopupWindow.obj
+         Release\PropertyBrowser.obj
+         Release\VerticalScrollView.obj
+         Release\ClassInstanceSet.obj
+         Release\ImageLoader.obj
+         Release\qtHelpers.obj
+         Release\StringHelper.obj
+         Release\Timer.obj
+         Release\Tools.obj
+         Release\BooleanClassProperty.obj
+         Release\BooleanElementEditor.obj
+         Release\BooleanPropertyEditor.obj
+         Release\ClassTypeClassProperty.obj
+         Release\ClassTypeClassPropertyEditorWidget.obj
+         Release\ClassTypePropertyEditor.obj
+         Release\CompoundClassProperty.obj
+         Release\ElementEditor.obj
+         Release\EmbeddedObjectClassProperty.obj
+         Release\EmbeddedObjectClassPropertyEditor.obj
+         Release\EmbeddedObjectElementEditor.obj
+         Release\EnumerationElementEditor.obj
+         Release\EnumerationPropertyEditor.obj
+         Release\FileNameElementEditor.obj
+         Release\FileNamePropertyEditor.obj
+         Release\FixedArrayClassProperty.obj
+         Release\FixedArrayElementEditor.obj
+         Release\FixedArrayPropertyEditor.obj
+         Release\NumericalClassProperty.obj
+         Release\ObjectClassProperty.obj
+         Release\ObjectElementEditor.obj
+         Release\ObjectListBase.obj
+         Release\ObjectListElementEditor.obj
+         Release\ObjectListProperty.obj
+         Release\ObjectListPropertyEditor.obj
+         Release\ObjectPropertyEditor.obj
+         Release\PropertyEditor.obj
+         Release\SeparatorClassProperty.obj
+         Release\SeparatorPropertyEditor.obj
+         Release\SingleClassProperty.obj
+         Release\StringClassProperty.obj
+         Release\StringElementEditor.obj
+         Release\StringPropertyEditor.obj
+         Release\StructClassProperty.obj
+         Release\VariableArrayClassProperty.obj
+         Release\VariableArrayClassPropertyEditor.obj
+         Release\VariableArrayElementEditor.obj
+         Release\BinaryObjectStreams.obj
+         Release\LegacyClassNameTranslation.obj
+         Release\ObjectStreams.obj
+         Release\StreamClassTable.obj
+         Release\Camera.obj
+         Release\CameraController.obj
+         Release\ExaminerCameraController.obj
+         Release\WalkthroughCameraController.obj
+         Release\GeoXGLWidget.obj
+         Release\GeoXGLWidget3D.obj
+         Release\GLGeometryViewer.obj
+         Release\GLGeometryViewer3D.obj
+         Release\LogoViewer.obj
+         Release\ExampleExperiment.obj
+         Release\ExampleExperiment2DGraphics.obj
+         Release\ExampleExperiment3DGraphics.obj
+         Release\ExampleExperimentMarchingCubes.obj
+         Release\Experiment.obj
+         Release\InitGeoX.obj
+         Generating code
+         Finished generating code
+         GeoX_VS2013.vcxproj -> C:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\Release\GeoX_VS2013.exe
+     1>Done Building Project "C:\Users\junaid\Dropbox\Modelling\Assignments\GeoX\windows\GeoX_VS2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.55

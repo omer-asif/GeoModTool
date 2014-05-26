@@ -66,7 +66,7 @@ void PolynomialInterpolation::drawPoints()
 	double xVal = -2.0f;
 	for (int i = 0; i <noOfPoints; i++)
 	{
-		p.push_back(Point2D(xVal, a*pow(xVal ,static_cast<double>(2))));
+		p.push_back(Point2D(xVal, a*pow(xVal ,2.0f)));
 		pHandle.push_back(viewer->addPoint(p.back()));
 		xVal = xVal + step;
 		
@@ -252,7 +252,7 @@ void PolynomialInterpolation::drawLines(DynamicVector<float> lam)
 	{
 		for (unsigned int k = 0; k < lam.size(); k++)
 		{
-			temp = temp + (lam[k] * ((float)pow(i, (int)k)));
+			temp = temp + (lam[k] * (pow(i, k)));
 
 		}
 		//output << temp << "\n";
