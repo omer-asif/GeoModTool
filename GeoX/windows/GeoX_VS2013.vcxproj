@@ -104,7 +104,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\experiments\AssignmentFour.cpp" />
     <ClCompile Include="..\experiments\AssignmentTwo.cpp" />
+    <ClCompile Include="..\experiments\BezierSubExperiment.cpp" />
+    <ClCompile Include="..\experiments\CurvatureExperiment.cpp" />
+    <ClCompile Include="..\experiments\DeCasteljauExperiment.cpp" />
     <ClCompile Include="..\experiments\ExampleExperimentFields.cpp" />
     <ClCompile Include="..\experiments\ExampleExperimentScatterPlot.cpp" />
     <ClCompile Include="..\experiments\PolynomialInterpolation.cpp" />
@@ -213,7 +217,11 @@
     <ClCompile Include="..\InitGeoX.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\experiments\AssignmentFour.h" />
     <ClInclude Include="..\experiments\AssignmentTwo.h" />
+    <ClInclude Include="..\experiments\BezierSubExperiment.h" />
+    <ClInclude Include="..\experiments\CurvatureExperiment.h" />
+    <ClInclude Include="..\experiments\DeCasteljauExperiment.h" />
     <ClInclude Include="..\experiments\ExampleExperimentFields.h" />
     <ClInclude Include="..\experiments\ExampleExperimentScatterPlot.h" />
     <ClInclude Include="..\experiments\PolynomialInterpolation.h" />

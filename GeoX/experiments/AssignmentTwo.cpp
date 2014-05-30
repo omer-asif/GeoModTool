@@ -150,7 +150,7 @@ void AssignmentTwo::computeCurvature(){
 		float n = (float) samplePoints;
 		float os = 0.0;
 		if(samplePoints>0){
-			os = (float)(1.0/(n));
+			os = (float)(1.0/(n-1));
 		}
 		for(int j=0;j<samplePoints;j++){
 			for(int k=0;k<=controlPoints-2;k++){

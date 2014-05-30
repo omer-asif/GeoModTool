@@ -31,8 +31,8 @@
 #include "ExampleExperimentScatterPlot.h"
 #include "PolynomialInterpolation.h"
 #include "AssignmentTwo.h"
-
-
+#include "AssignmentFour.h"
+#include "BezierSubExperiment.h"
 
 // ...
 // include your experiments here
@@ -68,7 +68,8 @@ void init()
     ExampleExperimentScatterPlot::init(Experiment::getClass());
 	PolynomialInterpolation::init(Experiment::getClass());
 	AssignmentTwo::init(Experiment::getClass());
-
+	AssignmentFour::init(Experiment::getClass());
+	BezierSubExperiment::init(Experiment::getClass());
     // ...
     // register your experiments here
 
@@ -100,6 +101,8 @@ void shutdown()
     ExampleExperimentScatterPlot::shutdown();
 	PolynomialInterpolation::shutdown();
 	AssignmentTwo::shutdown();
+	AssignmentFour::shutdown();
+	BezierSubExperiment::shutdown();
     // ...
     // unregister your experiments here
 

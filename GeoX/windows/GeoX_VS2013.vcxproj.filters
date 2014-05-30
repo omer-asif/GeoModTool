@@ -356,6 +356,18 @@
     <ClCompile Include="..\experiments\PolynomialInterpolation.cpp">
       <Filter>experiments</Filter>
     </ClCompile>
+    <ClCompile Include="..\experiments\BezierSubExperiment.cpp">
+      <Filter>experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\experiments\CurvatureExperiment.cpp">
+      <Filter>experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\experiments\DeCasteljauExperiment.cpp">
+      <Filter>experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\experiments\AssignmentFour.cpp">
+      <Filter>experiments</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -645,6 +657,18 @@
       <Filter>experiments</Filter>
     </ClInclude>
     <ClInclude Include="..\experiments\PolynomialInterpolation.h">
+      <Filter>experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\experiments\BezierSubExperiment.h">
+      <Filter>experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\experiments\CurvatureExperiment.h">
+      <Filter>experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\experiments\DeCasteljauExperiment.h">
+      <Filter>experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\experiments\AssignmentFour.h">
       <Filter>experiments</Filter>
     </ClInclude>
   </ItemGroup>
